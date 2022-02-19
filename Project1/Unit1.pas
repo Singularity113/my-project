@@ -44,6 +44,7 @@ type
     button28: Button;
     button29: Button;
     textBox1: TextBox;
+    label2: &Label;
     label1: &Label;
     {$include Unit1.Form1.inc}
   {$endregion FormDesigner}
@@ -59,7 +60,11 @@ type
 procedure Form1.button26_Click(sender: Object; e: EventArgs);
   var k1:integer;
   begin
+    if textbox1.Text='' then label2.Text:='Вы не ввели номер поля'
+    else
+      begin
     k1:=strtoint(textbox1.Text);
+    label2.Text:='';
      case k1 of
        1:button1.Text:=button(sender).text;
        2:button2.Text:=button(sender).text;
@@ -67,5 +72,7 @@ procedure Form1.button26_Click(sender: Object; e: EventArgs);
        4:button4.Text:=button(sender).text;
        5:button5.Text:=button(sender).text;
      end;
+    textbox1.Text:='';
+    end;
   end;
 end.

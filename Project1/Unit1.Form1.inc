@@ -31,6 +31,7 @@ procedure InitializeComponent;
         self.button29 := new System.Windows.Forms.Button();
         self.label1 := new System.Windows.Forms.Label();
         self.textBox1 := new System.Windows.Forms.TextBox();
+        self.label2 := new System.Windows.Forms.Label();
         self.SuspendLayout();
         // 
         // button1
@@ -300,7 +301,7 @@ procedure InitializeComponent;
         // 
         // label1
         // 
-        self.label1.Location := new System.Drawing.Point(264, 369);
+        self.label1.Location := new System.Drawing.Point(266, 349);
         self.label1.Name := 'label1';
         self.label1.Size := new System.Drawing.Size(250, 20);
         self.label1.TabIndex := 30;
@@ -308,14 +309,22 @@ procedure InitializeComponent;
         // 
         // textBox1
         // 
-        self.textBox1.Location := new System.Drawing.Point(263, 399);
+        self.textBox1.Location := new System.Drawing.Point(266, 372);
         self.textBox1.Name := 'textBox1';
         self.textBox1.Size := new System.Drawing.Size(149, 20);
         self.textBox1.TabIndex := 31;
         // 
+        // label2
+        // 
+        self.label2.Location := new System.Drawing.Point(266, 395);
+        self.label2.Name := 'label2';
+        self.label2.Size := new System.Drawing.Size(250, 20);
+        self.label2.TabIndex := 32;
+        // 
         // Form1
         // 
         self.ClientSize := new System.Drawing.Size(913, 564);
+        self.Controls.Add(self.label2);
         self.Controls.Add(self.textBox1);
         self.Controls.Add(self.label1);
         self.Controls.Add(self.button29);
