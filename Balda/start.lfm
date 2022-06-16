@@ -1,0 +1,107 @@
+object Form3: TForm3
+  Left = 867
+  Height = 260
+  Top = 204
+  Width = 283
+  BorderStyle = bsToolWindow
+  Caption = 'Стартовое меню'
+  ClientHeight = 260
+  ClientWidth = 283
+  Color = clGreen
+  ParentBiDiMode = False
+  LCLVersion = '2.0.12.0'
+  object pole_5x5: TButton
+    Left = 48
+    Height = 31
+    Top = 88
+    Width = 187
+    Caption = 'Поле 5х5'
+    OnClick = pole_5x5Click
+    TabOrder = 0
+  end
+  object Pole_7x7: TButton
+    Left = 48
+    Height = 31
+    Top = 136
+    Width = 187
+    Caption = 'Поле 7х7'
+    OnClick = Pole_7x7Click
+    TabOrder = 1
+  end
+  object Label1: TLabel
+    Left = 24
+    Height = 17
+    Top = 191
+    Width = 84
+    Caption = 'Имя 1 игрока'
+    Font.CharSet = RUSSIAN_CHARSET
+    Font.Color = clAqua
+    Font.Height = -15
+    Font.Name = 'Times New Roman'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    ParentColor = False
+    ParentFont = False
+  end
+  object Label2: TLabel
+    Left = 24
+    Height = 17
+    Top = 224
+    Width = 84
+    Caption = 'Имя 2 игрока'
+    Font.CharSet = RUSSIAN_CHARSET
+    Font.Color = clAqua
+    Font.Height = -15
+    Font.Name = 'Times New Roman'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    ParentColor = False
+    ParentFont = False
+  end
+  object name_1: TEdit
+    Left = 120
+    Height = 23
+    Top = 187
+    Width = 139
+    TabOrder = 2
+  end
+  object Name_2: TEdit
+    Left = 120
+    Height = 23
+    Top = 223
+    Width = 139
+    TabOrder = 3
+  end
+  object Label3: TLabel
+    Left = 93
+    Height = 40
+    Top = 8
+    Width = 97
+    Caption = 'Балда'
+    Font.CharSet = RUSSIAN_CHARSET
+    Font.Color = clAqua
+    Font.Height = -35
+    Font.Name = 'Times New Roman'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    Font.Style = [fsBold]
+    ParentColor = False
+    ParentFont = False
+  end
+  object Label4: TLabel
+    Left = 28
+    Height = 17
+    Top = 64
+    Width = 227
+    Caption = 'Выберите размер игрового поля'
+    Font.CharSet = RUSSIAN_CHARSET
+    Font.Color = clAqua
+    Font.Height = -15
+    Font.Name = 'Times New Roman'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    Font.Style = [fsBold]
+    ParentColor = False
+    ParentFont = False
+  end
+end

@@ -1,0 +1,860 @@
+object Form2: TForm2
+  Left = 1109
+  Height = 524
+  Top = 140
+  Width = 775
+  BorderStyle = bsToolWindow
+  Caption = 'Поле 5х5'
+  ClientHeight = 524
+  ClientWidth = 775
+  Color = clGreen
+  OnClose = FormClose
+  OnShow = FormShow
+  LCLVersion = '2.0.12.0'
+  object Button26: TButton
+    Left = 176
+    Height = 35
+    Top = 392
+    Width = 35
+    Caption = 'А'
+    OnClick = Button26Click
+    TabOrder = 0
+  end
+  object Button27: TButton
+    Left = 216
+    Height = 35
+    Top = 392
+    Width = 35
+    Caption = 'Б'
+    OnClick = Button26Click
+    TabOrder = 1
+  end
+  object Button28: TButton
+    Left = 256
+    Height = 35
+    Top = 392
+    Width = 35
+    Caption = 'В'
+    OnClick = Button26Click
+    TabOrder = 2
+  end
+  object Button29: TButton
+    Left = 176
+    Height = 35
+    Top = 432
+    Width = 35
+    Caption = 'К'
+    OnClick = Button26Click
+    TabOrder = 3
+  end
+  object Button30: TButton
+    Left = 216
+    Height = 35
+    Top = 432
+    Width = 35
+    Caption = 'Л'
+    OnClick = Button26Click
+    TabOrder = 4
+  end
+  object Button31: TButton
+    Left = 256
+    Height = 35
+    Top = 432
+    Width = 35
+    Caption = 'М'
+    OnClick = Button26Click
+    TabOrder = 5
+  end
+  object Button32: TButton
+    Left = 176
+    Height = 35
+    Top = 472
+    Width = 35
+    Caption = 'Х'
+    OnClick = Button26Click
+    TabOrder = 6
+  end
+  object Button33: TButton
+    Left = 216
+    Height = 35
+    Top = 472
+    Width = 35
+    Caption = 'Ц'
+    OnClick = Button26Click
+    TabOrder = 7
+  end
+  object Button34: TButton
+    Left = 256
+    Height = 35
+    Top = 472
+    Width = 35
+    Caption = 'Ч'
+    OnClick = Button26Click
+    TabOrder = 8
+  end
+  object Button35: TButton
+    Left = 296
+    Height = 35
+    Top = 392
+    Width = 35
+    Caption = 'Г'
+    OnClick = Button26Click
+    TabOrder = 9
+  end
+  object Button36: TButton
+    Left = 336
+    Height = 35
+    Top = 392
+    Width = 35
+    Caption = 'Д'
+    OnClick = Button26Click
+    TabOrder = 10
+  end
+  object Button37: TButton
+    Left = 376
+    Height = 35
+    Top = 392
+    Width = 35
+    Caption = 'Е'
+    OnClick = Button26Click
+    TabOrder = 11
+  end
+  object Button38: TButton
+    Left = 296
+    Height = 35
+    Top = 432
+    Width = 35
+    Caption = 'Н'
+    OnClick = Button26Click
+    TabOrder = 12
+  end
+  object Button39: TButton
+    Left = 336
+    Height = 35
+    Top = 432
+    Width = 35
+    Caption = 'О'
+    OnClick = Button26Click
+    TabOrder = 13
+  end
+  object Button40: TButton
+    Left = 376
+    Height = 35
+    Top = 432
+    Width = 35
+    Caption = 'П'
+    OnClick = Button26Click
+    TabOrder = 14
+  end
+  object Button41: TButton
+    Left = 296
+    Height = 35
+    Top = 472
+    Width = 35
+    Caption = 'Ш'
+    OnClick = Button26Click
+    TabOrder = 15
+  end
+  object Button42: TButton
+    Left = 336
+    Height = 35
+    Top = 472
+    Width = 35
+    Caption = 'Щ'
+    OnClick = Button26Click
+    TabOrder = 16
+  end
+  object Button43: TButton
+    Left = 376
+    Height = 35
+    Top = 472
+    Width = 35
+    Caption = 'Ъ'
+    OnClick = Button26Click
+    TabOrder = 17
+  end
+  object Button44: TButton
+    Left = 416
+    Height = 35
+    Top = 392
+    Width = 35
+    Caption = 'Ё'
+    OnClick = Button26Click
+    TabOrder = 18
+  end
+  object Button45: TButton
+    Left = 456
+    Height = 35
+    Top = 392
+    Width = 35
+    Caption = 'Ж'
+    OnClick = Button26Click
+    TabOrder = 19
+  end
+  object Button46: TButton
+    Left = 496
+    Height = 35
+    Top = 392
+    Width = 35
+    Caption = 'З'
+    OnClick = Button26Click
+    TabOrder = 20
+  end
+  object Button47: TButton
+    Left = 416
+    Height = 35
+    Top = 432
+    Width = 35
+    Caption = 'Р'
+    OnClick = Button26Click
+    TabOrder = 21
+  end
+  object Button48: TButton
+    Left = 456
+    Height = 35
+    Top = 432
+    Width = 35
+    Caption = 'С'
+    OnClick = Button26Click
+    TabOrder = 22
+  end
+  object Button49: TButton
+    Left = 496
+    Height = 35
+    Top = 432
+    Width = 35
+    Caption = 'Т'
+    OnClick = Button26Click
+    TabOrder = 23
+  end
+  object Button50: TButton
+    Left = 416
+    Height = 35
+    Top = 472
+    Width = 35
+    Caption = 'Ы'
+    OnClick = Button26Click
+    TabOrder = 24
+  end
+  object Button51: TButton
+    Left = 456
+    Height = 35
+    Top = 472
+    Width = 35
+    Caption = 'Ь'
+    OnClick = Button26Click
+    TabOrder = 25
+  end
+  object Button52: TButton
+    Left = 496
+    Height = 35
+    Top = 472
+    Width = 35
+    Caption = 'Э'
+    OnClick = Button26Click
+    TabOrder = 26
+  end
+  object Button53: TButton
+    Left = 536
+    Height = 35
+    Top = 392
+    Width = 35
+    Caption = 'И'
+    OnClick = Button26Click
+    TabOrder = 27
+  end
+  object Button54: TButton
+    Left = 576
+    Height = 35
+    Top = 392
+    Width = 35
+    Caption = 'Й'
+    OnClick = Button26Click
+    TabOrder = 28
+  end
+  object Button55: TButton
+    Left = 536
+    Height = 35
+    Top = 432
+    Width = 35
+    Caption = 'У'
+    OnClick = Button26Click
+    TabOrder = 29
+  end
+  object Button56: TButton
+    Left = 576
+    Height = 35
+    Top = 432
+    Width = 35
+    Caption = 'Ф'
+    OnClick = Button26Click
+    TabOrder = 30
+  end
+  object Button57: TButton
+    Left = 536
+    Height = 35
+    Top = 472
+    Width = 35
+    Caption = 'Ю'
+    OnClick = Button26Click
+    TabOrder = 31
+  end
+  object Button58: TButton
+    Left = 576
+    Height = 35
+    Top = 472
+    Width = 35
+    Caption = 'Я'
+    OnClick = Button26Click
+    TabOrder = 32
+  end
+  object Memo1: TMemo
+    Left = 18
+    Height = 314
+    Top = 24
+    Width = 257
+    ReadOnly = True
+    ScrollBars = ssVertical
+    TabOrder = 33
+  end
+  object Label1: TLabel
+    Left = 288
+    Height = 17
+    Top = 286
+    Width = 248
+    Caption = 'Введите номер поля для вставки буквы'
+    Font.CharSet = RUSSIAN_CHARSET
+    Font.Color = clAqua
+    Font.Height = -15
+    Font.Name = 'Times New Roman'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    ParentColor = False
+    ParentFont = False
+  end
+  object pole_bukv: TEdit
+    Left = 351
+    Height = 23
+    Top = 315
+    Width = 124
+    Font.Color = clBlack
+    NumbersOnly = True
+    ParentFont = False
+    TabOrder = 34
+  end
+  object Label2: TLabel
+    Left = 293
+    Height = 1
+    Top = 345
+    Width = 1
+    Font.CharSet = RUSSIAN_CHARSET
+    Font.Color = clAqua
+    Font.Height = -15
+    Font.Name = 'Times New Roman'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    ParentColor = False
+    ParentFont = False
+  end
+  object pole_slov: TEdit
+    Left = 568
+    Height = 23
+    Top = 315
+    Width = 182
+    Enabled = False
+    Font.Color = clBlack
+    ParentFont = False
+    TabOrder = 35
+  end
+  object accept: TButton
+    Left = 568
+    Height = 26
+    Top = 345
+    Width = 87
+    Caption = 'Принять'
+    Font.Color = clAqua
+    OnClick = acceptClick
+    ParentFont = False
+    TabOrder = 36
+  end
+  object clear: TButton
+    Left = 663
+    Height = 26
+    Top = 345
+    Width = 87
+    Caption = 'Сброс'
+    Font.Color = clAqua
+    OnClick = clearClick
+    ParentFont = False
+    TabOrder = 37
+  end
+  object point1: TEdit
+    Left = 670
+    Height = 23
+    Top = 24
+    Width = 81
+    Enabled = False
+    Font.Color = clBlack
+    ParentFont = False
+    TabOrder = 38
+  end
+  object point2: TEdit
+    Left = 669
+    Height = 23
+    Top = 59
+    Width = 81
+    Enabled = False
+    Font.Color = clBlack
+    ParentFont = False
+    TabOrder = 39
+  end
+  object Label3: TLabel
+    Left = 568
+    Height = 17
+    Top = 24
+    Width = 40
+    Caption = 'Label3'
+    Font.CharSet = RUSSIAN_CHARSET
+    Font.Color = clAqua
+    Font.Height = -15
+    Font.Name = 'Times New Roman'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    ParentColor = False
+    ParentFont = False
+  end
+  object Label4: TLabel
+    Left = 568
+    Height = 17
+    Top = 59
+    Width = 40
+    Caption = 'Label4'
+    Font.CharSet = RUSSIAN_CHARSET
+    Font.Color = clAqua
+    Font.Height = -15
+    Font.Name = 'Times New Roman'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    ParentColor = False
+    ParentFont = False
+  end
+  object Label5: TLabel
+    Left = 568
+    Height = 1
+    Top = 286
+    Width = 1
+    Font.CharSet = RUSSIAN_CHARSET
+    Font.Color = clAqua
+    Font.Height = -15
+    Font.Name = 'Times New Roman'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    ParentColor = False
+    ParentFont = False
+  end
+  object BitBtn1: TBitBtn
+    Left = 288
+    Height = 45
+    Top = 24
+    Width = 45
+    Caption = '1'
+    Font.CharSet = RUSSIAN_CHARSET
+    Font.Color = clSilver
+    Font.Name = 'Times New Roman'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    OnClick = BitBtn1Click
+    ParentFont = False
+    TabOrder = 40
+  end
+  object BitBtn2: TBitBtn
+    Left = 336
+    Height = 45
+    Top = 24
+    Width = 45
+    Caption = '2'
+    Font.CharSet = RUSSIAN_CHARSET
+    Font.Color = clSilver
+    Font.Name = 'Times New Roman'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    OnClick = BitBtn1Click
+    ParentFont = False
+    TabOrder = 41
+  end
+  object BitBtn3: TBitBtn
+    Left = 384
+    Height = 45
+    Top = 24
+    Width = 45
+    Caption = '3'
+    Font.CharSet = RUSSIAN_CHARSET
+    Font.Color = clSilver
+    Font.Name = 'Times New Roman'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    OnClick = BitBtn1Click
+    ParentFont = False
+    TabOrder = 42
+  end
+  object BitBtn4: TBitBtn
+    Left = 432
+    Height = 45
+    Top = 24
+    Width = 45
+    Caption = '4'
+    Font.CharSet = RUSSIAN_CHARSET
+    Font.Color = clSilver
+    Font.Name = 'Times New Roman'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    OnClick = BitBtn1Click
+    ParentFont = False
+    TabOrder = 43
+  end
+  object BitBtn5: TBitBtn
+    Left = 480
+    Height = 45
+    Top = 24
+    Width = 45
+    Caption = '5'
+    Font.CharSet = RUSSIAN_CHARSET
+    Font.Color = clSilver
+    Font.Name = 'Times New Roman'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    OnClick = BitBtn1Click
+    ParentFont = False
+    TabOrder = 44
+  end
+  object BitBtn6: TBitBtn
+    Left = 288
+    Height = 45
+    Top = 72
+    Width = 45
+    Caption = '6'
+    Font.CharSet = RUSSIAN_CHARSET
+    Font.Color = clSilver
+    Font.Name = 'Times New Roman'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    OnClick = BitBtn1Click
+    ParentFont = False
+    TabOrder = 45
+  end
+  object BitBtn7: TBitBtn
+    Left = 336
+    Height = 45
+    Top = 72
+    Width = 45
+    Caption = '7'
+    Font.CharSet = RUSSIAN_CHARSET
+    Font.Color = clSilver
+    Font.Name = 'Times New Roman'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    OnClick = BitBtn1Click
+    ParentFont = False
+    TabOrder = 46
+  end
+  object BitBtn8: TBitBtn
+    Left = 384
+    Height = 45
+    Top = 72
+    Width = 45
+    Caption = '8'
+    Font.CharSet = RUSSIAN_CHARSET
+    Font.Color = clSilver
+    Font.Name = 'Times New Roman'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    OnClick = BitBtn1Click
+    ParentFont = False
+    TabOrder = 47
+  end
+  object BitBtn9: TBitBtn
+    Left = 432
+    Height = 45
+    Top = 72
+    Width = 45
+    Caption = '9'
+    Font.CharSet = RUSSIAN_CHARSET
+    Font.Color = clSilver
+    Font.Name = 'Times New Roman'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    OnClick = BitBtn1Click
+    ParentFont = False
+    TabOrder = 48
+  end
+  object BitBtn10: TBitBtn
+    Left = 480
+    Height = 45
+    Top = 72
+    Width = 45
+    Caption = '10'
+    Font.CharSet = RUSSIAN_CHARSET
+    Font.Color = clSilver
+    Font.Name = 'Times New Roman'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    OnClick = BitBtn1Click
+    ParentFont = False
+    TabOrder = 49
+  end
+  object BitBtn11: TBitBtn
+    Left = 288
+    Height = 45
+    Top = 120
+    Width = 45
+    Caption = '11'
+    Font.Color = clBlack
+    Font.Name = 'Times New Roman'
+    OnClick = BitBtn1Click
+    ParentFont = False
+    TabOrder = 50
+  end
+  object BitBtn12: TBitBtn
+    Left = 336
+    Height = 45
+    Top = 120
+    Width = 45
+    Caption = '12'
+    Font.Color = clBlack
+    Font.Name = 'Times New Roman'
+    OnClick = BitBtn1Click
+    ParentFont = False
+    TabOrder = 51
+  end
+  object BitBtn13: TBitBtn
+    Left = 384
+    Height = 45
+    Top = 120
+    Width = 45
+    Caption = '13'
+    Font.Color = clBlack
+    Font.Name = 'Times New Roman'
+    OnClick = BitBtn1Click
+    ParentFont = False
+    TabOrder = 52
+  end
+  object BitBtn14: TBitBtn
+    Left = 432
+    Height = 45
+    Top = 120
+    Width = 45
+    Caption = '14'
+    Font.Color = clBlack
+    Font.Name = 'Times New Roman'
+    OnClick = BitBtn1Click
+    ParentFont = False
+    TabOrder = 53
+  end
+  object BitBtn15: TBitBtn
+    Left = 480
+    Height = 45
+    Top = 120
+    Width = 45
+    Caption = '15'
+    Font.Color = clBlack
+    Font.Name = 'Times New Roman'
+    OnClick = BitBtn1Click
+    ParentFont = False
+    TabOrder = 54
+  end
+  object BitBtn16: TBitBtn
+    Left = 288
+    Height = 45
+    Top = 168
+    Width = 45
+    Caption = '16'
+    Font.CharSet = RUSSIAN_CHARSET
+    Font.Color = clSilver
+    Font.Name = 'Times New Roman'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    OnClick = BitBtn1Click
+    ParentFont = False
+    TabOrder = 55
+  end
+  object BitBtn17: TBitBtn
+    Left = 336
+    Height = 45
+    Top = 168
+    Width = 45
+    Caption = '17'
+    Font.CharSet = RUSSIAN_CHARSET
+    Font.Color = clSilver
+    Font.Name = 'Times New Roman'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    OnClick = BitBtn1Click
+    ParentFont = False
+    TabOrder = 56
+  end
+  object BitBtn18: TBitBtn
+    Left = 384
+    Height = 45
+    Top = 168
+    Width = 45
+    Caption = '18'
+    Font.CharSet = RUSSIAN_CHARSET
+    Font.Color = clSilver
+    Font.Name = 'Times New Roman'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    OnClick = BitBtn1Click
+    ParentFont = False
+    TabOrder = 57
+  end
+  object BitBtn19: TBitBtn
+    Left = 432
+    Height = 45
+    Top = 168
+    Width = 45
+    Caption = '19'
+    Font.CharSet = RUSSIAN_CHARSET
+    Font.Color = clSilver
+    Font.Name = 'Times New Roman'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    OnClick = BitBtn1Click
+    ParentFont = False
+    TabOrder = 58
+  end
+  object BitBtn20: TBitBtn
+    Left = 480
+    Height = 45
+    Top = 168
+    Width = 45
+    Caption = '20'
+    Font.CharSet = RUSSIAN_CHARSET
+    Font.Color = clSilver
+    Font.Name = 'Times New Roman'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    OnClick = BitBtn1Click
+    ParentFont = False
+    TabOrder = 59
+  end
+  object BitBtn21: TBitBtn
+    Left = 288
+    Height = 45
+    Top = 216
+    Width = 45
+    Caption = '21'
+    Font.CharSet = RUSSIAN_CHARSET
+    Font.Color = clSilver
+    Font.Name = 'Times New Roman'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    OnClick = BitBtn1Click
+    ParentFont = False
+    TabOrder = 60
+  end
+  object BitBtn22: TBitBtn
+    Left = 336
+    Height = 45
+    Top = 216
+    Width = 45
+    Caption = '22'
+    Font.CharSet = RUSSIAN_CHARSET
+    Font.Color = clSilver
+    Font.Name = 'Times New Roman'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    OnClick = BitBtn1Click
+    ParentFont = False
+    TabOrder = 61
+  end
+  object BitBtn23: TBitBtn
+    Left = 384
+    Height = 45
+    Top = 216
+    Width = 45
+    Caption = '23'
+    Font.CharSet = RUSSIAN_CHARSET
+    Font.Color = clSilver
+    Font.Name = 'Times New Roman'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    OnClick = BitBtn1Click
+    ParentFont = False
+    TabOrder = 62
+  end
+  object BitBtn24: TBitBtn
+    Left = 432
+    Height = 45
+    Top = 216
+    Width = 45
+    Caption = '24'
+    Font.CharSet = RUSSIAN_CHARSET
+    Font.Color = clSilver
+    Font.Name = 'Times New Roman'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    OnClick = BitBtn1Click
+    ParentFont = False
+    TabOrder = 63
+  end
+  object BitBtn25: TBitBtn
+    Left = 480
+    Height = 45
+    Top = 216
+    Width = 45
+    Caption = '25'
+    Font.CharSet = RUSSIAN_CHARSET
+    Font.Color = clSilver
+    Font.Name = 'Times New Roman'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    OnClick = BitBtn1Click
+    ParentFont = False
+    TabOrder = 64
+  end
+  object check: TButton
+    Left = 568
+    Height = 26
+    Top = 200
+    Width = 87
+    Caption = 'Проверить'
+    OnClick = checkClick
+    TabOrder = 65
+  end
+  object pole_check: TEdit
+    Left = 568
+    Height = 23
+    Top = 160
+    Width = 176
+    TabOrder = 66
+  end
+  object Label6: TLabel
+    Left = 536
+    Height = 34
+    Top = 120
+    Width = 236
+    Caption = 'Введите слово для проверки наличия '#13#10'в словаре'
+    Font.CharSet = RUSSIAN_CHARSET
+    Font.Color = clAqua
+    Font.Height = -15
+    Font.Name = 'Times New Roman'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    ParentColor = False
+    ParentFont = False
+  end
+  object Label7: TLabel
+    Left = 537
+    Height = 1
+    Top = 246
+    Width = 1
+    Font.CharSet = RUSSIAN_CHARSET
+    Font.Color = clAqua
+    Font.Height = -15
+    Font.Name = 'Times New Roman'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    ParentColor = False
+    ParentFont = False
+  end
+end
